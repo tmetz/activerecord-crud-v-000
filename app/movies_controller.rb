@@ -27,7 +27,7 @@ def can_be_created_in_a_block(args = __)
   # If no arguments are passed, use default values:
   # title == "Home Alone"
   # release_date == 1990
-  
+
   Movie.create do |m|
     __
   end
@@ -58,7 +58,7 @@ def can_find_by_multiple_attributes
 end
 
 def can_find_using_where_clause_and_be_sorted
-  # For this test return all movies released after 2002 and ordered by 
+  # For this test return all movies released after 2002 and ordered by
   # release date descending
   __
 end
